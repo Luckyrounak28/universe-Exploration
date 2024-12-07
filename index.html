@@ -1,0 +1,153 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universe Exploration</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .hidden { display: none; }
+    </style>
+</head>
+<body class="font-roboto bg-gray-900 text-white">
+    <header class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">Universe Exploration</h1>
+            <nav>
+                <div class="md:hidden">
+                    <button class="text-white focus:outline-none" id="menu-button">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+                <ul class="hidden md:flex space-x-4" id="menu">
+                    <li><a class="hover:text-gray-400" href="index.html">Home</a></li>
+                    <li><a class="hover:text-gray-400" href="bang.html">Big Bang</a></li>
+                    <li><a class="hover:text-gray-400" href="galaxy.html">Galaxies</a></li>
+                    <li><a class="hover:text-gray-400" href="stars.html">Stars</a></li>
+                    <li><a class="hover:text-gray-400" href="planet.html">Planets</a></li>
+                    <li><a class="hover:text-gray-400" href="mission.html">Missions</a></li>
+                </ul>
+            </nav>
+        </div>
+        <ul class="md:hidden hidden space-y-4 mt-4" id="mobile-menu">
+            <li><a class="block hover:text-gray-400" href="index.html">Home</a></li>
+            <li><a class="block hover:text-gray-400" href="bang.html">Big Bang</a></li>
+            <li><a class="block hover:text-gray-400" href="galaxy.html">Galaxies</a></li>
+            <li><a class="block hover:text-gray-400" href="stars.html">Stars</a></li>
+            <li><a class="block hover:text-gray-400" href="planet.html">Planets</a></li>
+            <li><a class="block hover:text-gray-400" href="mission.html">Missions</a></li>
+        </ul>
+    </header>
+    <section class="text-center py-20" id="home">
+        <h2 class="text-4xl font-bold mb-4">Welcome to Universe Exploration</h2>
+        <p class="text-lg mb-8">Journey through the cosmos from the Big Bang to the farthest reaches of the universe.</p>
+        <img src="https://storage.googleapis.com/a1aa/image/DhUhwZALuuanDFmBgwrSS2FmE7IcniVd3JelX3Ni3ubz2N8JA.jpg" alt="A vast view of the universe with countless stars and galaxies" class="mx-auto" width="1200" height="600">
+    </section>
+    <section class="py-20 bg-gray-800" id="big-bang">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4">The Big Bang</h2>
+            <p class="text-lg mb-8">The origin of the universe, a massive explosion that started it all.</p>
+            <img src="https://storage.googleapis.com/a1aa/image/ewKDJv7ZuJXfjkl3NwBq4frTRKkelF421Ehrj9C6ee42X7GeJA.jpg" alt="Artistic representation of the Big Bang explosion" class="mx-auto mb-8" width="1200" height="600">
+            <video class="mx-auto" controls>
+                <source src="https://placehold.co/1200x600.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+    <section class="py-20" id="galaxies">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4">Galaxies</h2>
+            <p class="text-lg mb-8">Explore the vast collections of stars, gas, and dust bound together by gravity.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div>
+                    <img src="https://storage.googleapis.com/a1aa/image/N5YFMzaupKYIFFhusdXec1vQhei9pOgR2krt6m9oVOWjtb4TA.jpg" alt="A spiral galaxy with bright core and swirling arms" class="mb-4" width="400" height="300">
+                    <h3 class="text-2xl font-bold">Spiral Galaxy</h3>
+                    <p>A galaxy with a central bulge and spiral arms.</p>
+                </div>
+                <div>
+                    <img src="https://storage.googleapis.com/a1aa/image/B6auxO3DeMTUVKo9AqCMTe5SpJvby3pwFhzAgeeNBnDl1uhPB.jpg" alt="An elliptical galaxy with a smooth, featureless light profile" class="mb-4" width="400" height="300">
+                    <h3 class="text-2xl font-bold">Elliptical Galaxy</h3>
+                    <p>A galaxy with an ellipsoidal shape and a smooth, nearly featureless brightness profile.</p>
+                </div>
+                <div>
+                    <img src="https://storage.googleapis.com/a1aa/image/0zf9Nbrg45WONCdJPlhnzjSw4A4bNJvgGIqrPH2V9LYu2N8JA.jpg" alt="An irregular galaxy with no distinct shape" class="mb-4" width="400" height="300">
+                    <h3 class="text-2xl font-bold">Irregular Galaxy</h3>
+                    <p>A galaxy that does not have a distinct regular shape.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-20 bg-gray-800" id="stars">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4">Stars</h2>
+            <p class="text-lg mb-8">The building blocks of galaxies, shining brightly across the universe.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div>
+                    <img src="https://storage.googleapis.com/a1aa/image/9eEzKJwAiX3IUS75wBCQpxVskq7COJpeO3AZq6P2ZjeEb3wnA.jpg" alt="A bright yellow star similar to the Sun" class="mb-4" width="400" height="300">
+                    <h3 class="text-2xl font-bold">Sun-like Star</h3>
+                    <p>A star similar in size and temperature to our Sun.</p>
+                </div>
+                <div>
+                    <img src="https://storage.googleapis.com/a1aa/image/I7GZv3js5tbnGNBKrTVAvuNpvDdo8iCRsCLRkiEpYytX7GeJA.jpg" alt="A red giant star, much larger and cooler than the Sun" class="mb-4" width="400" height="300">
+                    <h3 class="text-2xl font-bold">Red Giant</h3>
+                    <p>A dying star in the last stages of stellar evolution.</p>
+                </div>
+                <div>
+                    <img src="https://storage.googleapis.com/a1aa/image/o54iAoSJXNIZJ50b40AYFPLqn5rNew0ZS3eCkd7EpZUYtb4TA.jpg" alt="A white dwarf star, small and dense" class="mb-4" width="400" height="300">
+                    <h3 class="text-2xl font-bold">White Dwarf</h3>
+                    <p>A small, dense star that is the remnant of a low-mass star.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-20" id="planets">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4">Planets</h2>
+            <p class="text-lg mb-8">Discover the diverse worlds orbiting stars across the universe.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div>
+                    <img src="https://storage.googleapis.com/a1aa/image/JzDGbMYiEKYee0myy6rM4iKsXJ2IRGKXK2e5tR3Z5lJ1a3wnA.jpg" alt="A rocky planet with a solid surface" class="mb-4" width="400" height="300">
+                    <h3 class="text-2xl font-bold">Rocky Planet</h3>
+                    <p>A planet with a solid, rocky surface like Earth.</p>
+                </div>
+                <div>
+                    <img src="https://storage.googleapis.com/a1aa/image/Ydcwe6ZKYP3zKivqfi83128DoCkZfZ5ZGCe9So3vsd0V2uhPB.jpg" alt="A gas giant planet with thick atmosphere" class="mb-4" width="400" height="300">
+                    <h3 class="text-2xl font-bold">Gas Giant</h3>
+                    <p>A large planet composed mostly of gases like Jupiter.</p>
+                </div>
+                <div>
+                    <img src="https://storage.googleapis.com/a1aa/image/397sbHf4FcQXCy3PYPtN09nEMaL9ScQzJyyx6nPnf1Ihtb4TA.jpg" alt="An ice giant planet with a thick atmosphere and icy core" class="mb-4" width="400" height="300">
+                    <h3 class="text-2xl font-bold">Ice Giant</h3>
+                    <p>A giant planet composed mainly of elements heavier than hydrogen and helium.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-gray-800 py-8" id="contact">
+          <center> <p class="text-lg mt-8">Designed and created by Vishal Kumar</p></center> 
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="https://github.com" target="_blank" class="text-white hover:text-gray-400">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" class="text-white hover:text-gray-400">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" class="text-white hover:text-gray-400">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('menu-button').addEventListener('click', function() {
+            var menu = document.getElementById('mobile-menu');
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+            } else {
+                menu.classList.add('hidden');
+            }
+        });
+    </script>
+</body>
+</html>

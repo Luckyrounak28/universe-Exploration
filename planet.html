@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planets - Universe Exploration</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-roboto bg-gray-900 text-white">
+    <header class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">Universe Exploration</h1>
+            <nav>
+                <div class="md:hidden">
+                    <button class="text-white focus:outline-none" id="menu-button">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+                <ul class="hidden md:flex space-x-4" id="menu">
+                    <li><a class="hover:text-gray-400" href="index.html">Home</a></li>
+                    <li><a class="hover:text-gray-400" href="bang.html">Big Bang</a></li>
+                    <li><a class="hover:text-gray-400" href="galaxy.html">Galaxies</a></li>
+                    <li><a class="hover:text-gray-400" href="stars.html">Stars</a></li>
+                    <li><a class="hover:text-gray-400" href="planet.html">Planets</a></li>
+                    <li><a class="hover:text-gray-400" href="mission.html">Missions</a></li>
+                </ul>
+            </nav>
+        </div>
+        <ul class="md:hidden hidden space-y-4 mt-4" id="mobile-menu">
+            <li><a class="block hover:text-gray-400" href="index.html">Home</a></li>
+            <li><a class="block hover:text-gray-400" href="bang.html">Big Bang</a></li>
+            <li><a class="block hover:text-gray-400" href="galaxy.html">Galaxies</a></li>
+            <li><a class="block hover:text-gray-400" href="stars.html">Stars</a></li>
+            <li><a class="block hover:text-gray-400" href="planet.html">Planets</a></li>
+            <li><a class="block hover:text-gray-400" href="mission.html">Missions</a></li>
+        </ul>
+    </header>
+    <section class="py-20" id="planets">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4">Planets</h2>
+            <p class="text-lg mb-8">Discover the diverse worlds orbiting stars across the universe.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div>
+                    <img src="https://solarsystem.nasa.gov/system/feature_items/images/18_mercury_new.png" alt="Mercury, the smallest planet in our solar system" class="mb-4" width="400" height="300">
+                    <h3 class="text-2xl font-bold">Mercury</h3>
+                    <p>Mercury is the smallest planet in our solar system and closest to the Sun. It has a solid, rocky surface covered with craters.</p>
+                </div>
+                <div>
+                    <img src="https://solarsystem.nasa.gov/system/feature_items/images/27_venus_jg.png" alt="Venus, the second planet from the Sun with a thick, toxic atmosphere" class="mb-4" width="400" height="300">
+                    <h3 class="text-2xl font-bold">Venus</h3>
+                    <p>Venus is the second planet from the Sun and has a thick, toxic atmosphere. It is known for its extreme temperatures and volcanic activity.</p>
+                </div>
+                <div>
+                    <img src="https://solarsystem.nasa.gov/system/feature_items/images/17_earth.png" alt="Earth, the third planet from the Sun and the only known planet to support life" class="mb-4" width="400" height="300">
+                    <h3 class="text-2xl font-bold">Earth</h3>
+                    <p>Earth is the third planet from the Sun and the only known planet to support life. It has a diverse climate and a surface covered with water and land.</p>
+                </div>
+                <div>
+                    <img src="https://solarsystem.nasa.gov/system/feature_items/images/19_mars.png" alt="Mars, the fourth planet from the Sun known as the Red Planet" class="mb-4" width="400" height="300">
+                    <h3 class="text-2xl font-bold">Mars</h3>
+                    <p>Mars is the fourth planet from the Sun and known as the Red Planet due to its reddish appearance. It has the largest volcano and canyon in the solar system.</p>
+                </div>
+                <div>
+                    <img src="https://solarsystem.nasa.gov/system/feature_items/images/16_jupiter_new.png" alt="Jupiter, the largest planet in our solar system" class="mb-4" width="400" height="300">
+                    <h3 class="text-2xl font-bold">Jupiter</h3>
+                    <p>Jupiter is the largest planet in our solar system and a gas giant. It is known for its Great Red Spot, a giant storm that has been raging for centuries.</p>
+                </div>
+                <div>
+                    <img src="https://solarsystem.nasa.gov/system/feature_items/images/28_saturn.png" alt="Saturn, the sixth planet from the Sun known for its stunning ring system" class="mb-4" width="400" height="300">
+                    <h3 class="text-2xl font-bold">Saturn</h3>
+                    <p>Saturn is the sixth planet from the Sun and known for its stunning ring system. It is a gas giant with a thick atmosphere composed mostly of hydrogen and helium.</p>
+                </div>
+                <div>
+                    <img src="https://solarsystem.nasa.gov/system/feature_items/images/29_uranus.png" alt="Uranus, the seventh planet from the Sun and an ice giant" class="mb-4" width="400" height="300">
+                    <h3 class="text-2xl font-bold">Uranus</h3>
+                    <p>Uranus is the seventh planet from the Sun and an ice giant. It has a unique tilt that causes it to rotate on its side, and it has a faint ring system.</p>
+                </div>
+                <div>
+                    <img src="https://solarsystem.nasa.gov/system/feature_items/images/30_neptune.png" alt="Neptune, the eighth and farthest planet from the Sun" class="mb-4" width="400" height="300">
+                    <h3 class="text-2xl font-bold">Neptune</h3>
+                    <p>Neptune is the eighth and farthest planet from the Sun. It is an ice giant with a deep blue color and the strongest winds in the solar system.</p>
+                </div>
+                <div>
+                    <img src="https://solarsystem.nasa.gov/system/feature_items/images/31_pluto.png" alt="Pluto, a dwarf planet with a rocky core surrounded by ice" class="mb-4" width="400" height="300">
+                    <h3 class="text-2xl font-bold">Pluto</h3>
+                    <p>Pluto, once considered the ninth planet, is now classified as a dwarf planet. It has a rocky core surrounded by ice and a thin atmosphere.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-gray-800 py-8">
+        <div class="container mx-auto text-center">
+            <p class="text-lg mb-4">Designed and created by Vishal Kumar</p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="https://github.com" target="_blank" class="text-white hover:text-gray-400">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" class="text-white hover:text-gray-400">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" class="text-white hover:text-gray-400">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('menu-button').addEventListener('click', function() {
+            var menu = document.getElementById('mobile-menu');
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+            } else {
+                menu.classList.add('hidden');
+            }
+        });
+    </script>
+</body>
+</html>
